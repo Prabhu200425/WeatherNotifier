@@ -60,12 +60,12 @@ def getNotification():
         
 # creating the window
 wn = Tk()
-wn.title("PythonGeeks Weather Desktop Notifier")
+wn.title("Weather Notifier")
 wn.geometry('700x200')
 wn.config(bg='azure')
 
 # Heading label
-Label(wn, text="PythonGeeks Weather Desktop Notifier", font=('Courier', 15), fg='grey19', bg='azure').place(x=100, y=15)
+Label(wn, text="Weather Notifier", font=('Courier', 15), fg='grey19', bg='azure').place(x=100, y=15)
 
 # Getting the place name 
 Label(wn, text='Enter the Location:', font=("Courier", 13), bg='azure').place(relx=0.05, rely=0.3)
